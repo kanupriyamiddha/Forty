@@ -12,6 +12,7 @@ body{
   margin:0;
   padding:0;
 
+
 }
 a{
   text-decoration: none;
@@ -19,6 +20,7 @@ a{
 }
 a:hover{
   color:#9BF1FF;
+  transition: all .3s ease-in-out;
 
 }
 a:hover .style2{
@@ -28,10 +30,12 @@ a:hover .style2{
 #clear:hover{
   color:#9BF1FF;
   border:2px solid #9BF1FF;
+  transition: all .3s ease-in-out;
 }
 .sub:hover {
   background-color: #9BF1FF;
   color: #242943;
+  transition: all .3s ease-in-out;
 
 }
 .cont a{
@@ -40,25 +44,27 @@ a:hover .style2{
 }
 #social i:hover{
   color:#9BF1FF;
+  transition: all .3s ease-in-out;
 }
 #wrapper{
   width:100%;
   height:100%;
 }
 #back{
-}
-#back img{
-  width:100%;
-  height:85%;
+background:url("images/back2.jpg");
+  background-size:cover;
   position:absolute;
   z-index:-2;
-  float: left;
+  width:100%;
+  height:85%;
+
 }
+
 #backCover{
   width:100%;
   height:85%;
   background-color: #222A46;
-  opacity:0.6;
+  opacity:0.85;
   position:absolute;
   z-index:-1;
 
@@ -104,6 +110,13 @@ a:hover .style2{
   background-color: white;
   border:none;
 }
+#envelope{
+  margin-top: 15%;
+position: absolute;
+width: 93%;
+margin-left: 7%;
+
+}
 #menu{
   float:right;
 
@@ -142,6 +155,8 @@ a:hover .style2{
   display: block;
   position: absolute;
   opacity: 0.9;
+  transition: all .3s ease-in-out;
+
 }
 #tl:after {
   background: #7ac0d8;
@@ -220,6 +235,9 @@ form{
 .field input:focus,textarea:focus{
   border:none;
   outline: 2px solid #9BF1FF;
+}
+textarea{
+  rowspan:30;
 }
 #contact{
   height:20%;
@@ -373,20 +391,19 @@ label{
 #h{
   font-size: 50px;
   padding-bottom: 3px;
-  top: 45%;
-  left: 7%;
+
   border-bottom: 3px solid white;
   width:85%;
   padding-bottom: 10px;
   font-weight: bold;
 }
 #subh{
-  top:60%;
-  left:7%;
+
   text-transform: uppercase;
   font-size:13px;
   font-weight: bold;
   letter-spacing: 3px;
+  margin-top: 8%;
 }
 #intro button{
   background-color: transparent;;
@@ -394,7 +411,7 @@ label{
   color: white;
   margin-left: 45%;
   padding: 1%;
-  margin-top: 29%;
+  margin-top: 8%;
 }
 #bar button:hover{
   color: #9BF1FF;
